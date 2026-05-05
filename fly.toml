@@ -1,0 +1,12 @@
+app = "bg-remover-bot"
+primary_region = "sin"
+
+[build]
+
+[processes]
+  worker = "python bot.py"
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1
